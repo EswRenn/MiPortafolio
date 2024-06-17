@@ -1,0 +1,214 @@
+/* styles.css */
+
+/* Estilo para el cuerpo y fuente */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black; /* Blanco para el texto */
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #5333ed; /* Púrpura oscuro */
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+header nav ul li a:hover {
+    background-color: #2cd4d9; /* Turquesa */
+    border-radius: 5px;
+}
+
+header .social-media a {
+    color: #fff;
+    margin: 0 0.5em;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+main section {
+    margin-bottom: 4em;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    clip-path: circle(70%);
+}
+
+.proyectos-grid, .experiencia-grid, .educacion-grid, .certificaciones-grid {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto, .trabajo, .educacion, .certificaciones {
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 5px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.proyecto:hover, .trabajo:hover, .educacion:hover, .certificaciones:hover {
+    transform: scale(1.05);
+}
+
+.proyecto img, .trabajo img, .educacion img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para los modales */
+.modal, .modal-contacto {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+}
+
+.modal-content, .modal-contacto .modal-content {
+    background-color: #FFFFFF;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+    text-align: left; /* Alinea el contenido del modal a la izquierda */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #5333ed; /* Púrpura oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 0.5em;
+}
+
+/* Estilos adicionales para el formulario de contacto */
+.modal-contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.modal-contacto label, .modal-contacto input, .modal-contacto textarea, .modal-contacto button {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.modal-contacto input, .modal-contacto textarea {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.modal-contacto button {
+    padding: 0.75em;
+    background-color: #5333ed; /* Púrpura oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-contacto button:hover {
+    background-color: #2cd4d9; /* Turquesa */
+}
+
+/* Estilos para la sección de habilidades */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    gap: 1em;
+}
+
+.skills-list li {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    flex: 1 1 150px; /* Ajusta el valor para cambiar la anchura mínima */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+  }
+
+.text {
+    font-size: auto;
+    padding-left: 20px;
+  }
+
+  @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    .proyectos-grid, .experiencia-grid, .educacion-grid {
+        flex-direction: column;
+        gap: 1em;
+    }
+}

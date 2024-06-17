@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Eswin Pineda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#certificaciones">Educación</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://linkedin.com/in/eswin-rené-pineda-de-león-b861b549" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/EswRenn" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/eswin_pinn?igsh=NmloNGRkaDg2a2sw" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </header>
+    <main>
+        <section id="inicio">
+            <img src="/Users/eswinpineda/Desktop/Proyectos/img/tu_foto.jpg" alt="Foto de Eswin" width="200" height="150">
+            <h1>Hola, soy Eswin Pineda</h1>
+            <p>Soy un estudiante universitario de la Carrera de Ingeniería en Sistemas, con ganas y deseos de aprender y poder aplicarlos para solucionar problemas</p>
+        </section>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy un programador con un poco de experiencia en Java, C#, HTML, CSS, SQL Server. Disfruto trabajando en proyectos que me desafían y 
+                me permiten aprender nuevas habilidades. Estoy en busqueda de poder desarrollarme como un Desarrollador Junior y tengo el deseo de aprender y conocer nuevas tecnologías, 
+                y al adquirir el conocimiento poder aplicarlas en los proyectos que pueda desarrollar y asi poder solucionar muchos problemas</p>
+            <button onclick="mostrarModal('contacto-modal')">Mi CV</button>
+            <div id="contacto-modal" class="modal modal-contacto">
+                <div class="modal-content">
+                    <span class="close" onclick="cerrarModal('contacto-modal')">&times;</span>
+                    <h3>Mi Curriculum</h3>
+                    <div class="certificaciones-grid">
+                        <div class="certificacion">
+                            <embed src="/Users/eswinpineda/Desktop/Proyectos/img/Eswin Pineda Curriculum.pdf" width="300" height="478" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Habilidades</h3>
+            <ul class="skills-list">
+                <li>C#</li>
+                <li>Java</li>
+                <li>.Net Framework</li>
+                <li>C++</li>
+                <li>SQL Server</li>
+                <li>MySQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>PowerBi</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>CorelDraw</li>
+            </ul>
+            <h3>Hobbies</h3>
+            <p>Soy Músico, me encanta el Fútbol, me gustan los Videojuegos, también me gusta mucho ver Series y Peliculas, también me encanta leer comics y mangas</p>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos-grid">
+                <!-- Proyecto 1 -->
+                <div class="proyecto" onclick="mostrarModal('proyecto1')">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/C-Sharp.png" alt="Proyecto 1" width="100" height="100">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/ASP .Net.png" alt="Proyecto 1" width="100" height="100">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/SQL Server.png" alt="Proyecto 1" width="100" height="100">
+                    <h3>Sistema de Hotelería</h3>
+                </div>
+                <div id="proyecto1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="cerrarModal('proyecto1')">&times;</span>
+                        <h3>Sistema de Hotelería</h3>
+                        <div class="container">
+                        <img src="/Users/eswinpineda/Desktop/Proyectos/img/ASP .Net.png" alt="Proyecto 1"  width="100" height="100">
+                        <div class="text"><h4>Sistema que básicamente registra la reservación de habitaciones de un hotel</h4></div>
+                        </div>
+                        <p>Proyecto desarrollado a través del lenguaje de programación Visual Studio .NET y base de datos SQL Server o MySQL, 
+                            el proyecto se estructura a través de los siguientes requerimientos:
+                            Intranet,
+                            Modelado de un sistema comercial en 3 servidores (base de datos, servicios y aplicación)</p>
+                        <p><strong>Tecnologías:</strong></p>
+                        <ul class="skills-list">
+                            <li>C#</li>
+                            <li>API REST</li>
+                            <li>ASP.Net</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>SQL Server</li>
+                            <li>CRUD (Logica DML)</li>
+                        </ul>
+                        <div class="container">
+                            <a href="https://github.com/EswRenn/APIHoteleria.git">
+                            <img
+                              src="/Users/eswinpineda/Desktop/Proyectos/img/GitHub2.png"
+                              alt="Repositorio GitHub" width="100" height="100" />
+                          </a>
+                          <div class="text"><h3>Repositorio GitHub</h3>
+                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="proyecto" onclick="mostrarModal('proyecto2')">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/JAVA.png" alt="Proyecto 2" width="150" height="100">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/SQL Server.png" alt="Proyecto 2" width="100" height="100">
+                    <h3>Sistema de evaluación de personal</h3>
+                </div>
+                <div id="proyecto2" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="cerrarModal('proyecto2')">&times;</span>
+                        <h3>Sistema de evaluación de personal</h3>
+                        <div class="container">
+                        <img src="/Users/eswinpineda/Desktop/Proyectos/img/JAVA2.png" alt="Proyecto 2" width="100" height="100">
+                        <div class="text"><h4>Desarrollo de una aplicación web que permita evaluar el desempeño de un trabajador a través de una serie de preguntas y ponderación de esta</h4></div>
+                        </div>
+                        <p>1. Modelo de negocio, este modelo permitirá diseñar un diagrama entidad relación, diagrama de clases y posteriormente el diseño de una base de datos. 
+                            La base de datos a desarrollar será SQL Server.</p>
+                        <p>2. Programación de servicios, el objetivo de este servidor es tener la operabilidad de la base de datos y permitir una comunicación e intercambio de datos a través del estándar XML, 
+                            este servidor servirá de intermediario entre la base de datos y la interfaz al usuario final. Este estándar será del tipo SOAP y se programará en JAX-WS</p>
+                            <p>- Este servicio debe incluir la apertura y cierre de la base de datos SQL Server y con ello permitir las instrucciones DML (select, insert, update, delete) del modelo de negocio asignado.</p>
+                            <p>- Debe instalarse y configurarse un servidor Glassfish, Apache Tomcat o Payara. </p>
+                            <p>- En este servidor Glassfish, Apache Tomcat o Payara se publicará el servicio JAX-WS desarrollado en Java, posteriormente este servicio podrá ser instanciado en cualquier interfaz al usuario.</p>
+                        <p><strong>Tecnologías:</strong></p>
+                        <ul class="skills-list">
+                            <li>Java</li>
+                            <li>JAX-WS</li>
+                            <li>SQL Server</li>
+                            <li>CRUD (Logica DML)</li>
+                        </ul>
+                        <div class="container">
+                            <a href="https://github.com/EswRenn/CRUDJava.git">
+                            <img
+                              src="/Users/eswinpineda/Desktop/Proyectos/img/GitHub2.png"
+                              alt="Repositorio GitHub" width="100" height="100" />
+                          </a>
+                          <div class="text"><h3>Repositorio GitHub</h3>
+                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="proyecto" onclick="mostrarModal('proyecto3')">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/JAVA.png" alt="Proyecto 3" width="150" height="100">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/MySQL.png" alt="Proyecto 3" width="100" height="100">
+                    <h3>Tabla Hash</h3>
+                </div>
+                <div id="proyecto3" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="cerrarModal('proyecto3')">&times;</span>
+                        <h3>Tabla Hash</h3>
+                        <div class="container">
+                        <img src="/Users/eswinpineda/Desktop/Proyectos/img/JAVA2.png" alt="Proyecto 3" width="100" height="100">
+                        <div class="text"><h4>Desarrollo de una aplicación de escritorio Java utilizando Tablas Hash con metodo de Encadenamiento Seprado</h4></div>
+                        </div>
+                        <p>Desarrollo de una aplicación que contenga un menú con el ABC (Altas - Bajas - Cambios) de la tabla, deberá tener inicialmente un formulario de login, 
+                            después de haberse logeado poder ingresar al menú principal el cual contendrá las opciones de Reporte de datos, Inserción, eliminación y actualización 
+                            de nuevos datos además cierre de la aplicación.</p>
+                            <p>También se desarrolla un login conectado a una base de datos en MySQL, con nombre de usuario y contraseña</p>
+                            <p><strong>Tecnologías:</strong></p>
+                            <ul class="skills-list">
+                                <li>Java</li>
+                                <li>Java Swing</li>
+                                <li>MySQL</li>
+                                <li>CRUD</li>
+                            </ul>
+                            <div class="container">
+                                <a href="https://github.com/EswRenn/TablasHashJava.git">
+                                <img
+                                  src="/Users/eswinpineda/Desktop/Proyectos/img/GitHub2.png"
+                                  alt="Repositorio GitHub" width="100" height="100" />
+                              </a>
+                              <div class="text"><h3>Repositorio GitHub</h3>
+                                <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
+                            </div>
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="proyecto" onclick="mostrarModal('proyecto4')">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/SQL Server.png" alt="Proyecto 4" width="200" height="100">
+                    <h3>Base de Datos Hotelería</h3>
+                </div>
+                <div id="proyecto4" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="cerrarModal('proyecto4')">&times;</span>
+                        <h3>Base de Datos Hotelería</h3>
+                        <div class="container">
+                        <img src="/Users/eswinpineda/Desktop/Proyectos/img/SQL Server.png" alt="Proyecto 4"  width="100" height="100">
+                        <div class="text"><h4>En base al modelo de negocio asignado se realizará una base de datos, se deben listar las tablas, campos, 
+                            clave primaria y foránea y modelo relacional, esta base de dato se debe diseñar en el servidor de base de datos elegido anteriormente.</h4></div>
+                        </div>
+                        <p>Tablas que debe incluir el sistema:</p>
+                            <p>1. Usuario: Registre las credenciales del empleado que tendrá acceso al sistema</p>
+                            <p>2. Hotel: Registra los datos generales del hotel que presta el servicio</p>
+                            <p>3. Tipo de habitación: Clasifica una habitación de acuerdo con la comodidad de esta</p>
+                            <p>4. Habitación: Registro de las habitaciones disponibles en un hotel, incluye el tipo de habitación</p>
+                            <p>5. Cliente: Registro los datos generales de la persona que solicita habitaciones</p>
+                            <p>6. Empleados: Registro de personas que laboran en el hotel</p>
+                            <p>7. Reservación: Consiste en el evento mas importante del sistema y divide la lógica de esta en las siguientes tablas:</p>
+                            <p><i>- Reservación: Registra los datos del cliente, empleado, hotel, costos</i></p>
+                            <p><i>- Detalle de reservación: Lista las habitaciones y los días reservados</i></p>
+                            </p>
+                        <p><strong>Tecnologías:</strong></p>
+                        <ul class="skills-list">
+                            <li>SQL Server</li>
+                        </ul>
+                        <div class="container">
+                            <a href="https://github.com/EswRenn/DBHoteleria.git">
+                            <img
+                              src="/Users/eswinpineda/Desktop/Proyectos/img/GitHub2.png"
+                              alt="Repositorio GitHub" width="100" height="100" />
+                          </a>
+                          <div class="text"><h3>Repositorio GitHub</h3>
+                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 5 -->
+                <div class="proyecto" onclick="mostrarModal('proyecto5')">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/HTML-CSS-JS.png" alt="Proyecto 5" width="200" height="300">
+                    <h3>Mi Portafolio Web</h3>
+                </div>
+                <div id="proyecto5" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="cerrarModal('proyecto5')">&times;</span>
+                        <h3>Mi Portafolio Web</h3>
+                        <div class="container">
+                        <img src="/Users/eswinpineda/Desktop/Proyectos/img/HTML-CSS-JS.png" alt="Proyecto 5"  width="100" height="100">
+                        <div class="text"><h4>Publicación de mi portafolio Web</h4></div>
+                        </div>
+                        <p>Proyecto para desarrollar mi Portafolio, con mis proyectos, habilidades, experiencia laboral, educación y certificaciones</p>
+                        <p><strong>Tecnologías:</strong></p>
+                        <ul class="skills-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="container">
+                            <a href="https://github.com/EswRenn/APIHoteleria.git">
+                            <img
+                              src="/Users/eswinpineda/Desktop/Proyectos/img/GitHub2.png"
+                              alt="Repositorio GitHub" width="100" height="100" />
+                          </a>
+                          <div class="text"><h3>Repositorio GitHub</h3>
+                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2>
+            <div class="experiencia-grid">
+                <div class="trabajo">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/BI.jpeg" alt="Bi" width="115" height="100">
+                    <h3>Auxiliar Operativo</h3>
+                    <h4>2014-2015</h4>
+                    <p><strong>Empresa:</strong> Banco Industrial</p>
+                    <p>Recepción y conteo de valores, cuadre de caja</p>
+                </div>
+                <div class="trabajo">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/Tigo.png" alt="Tigo" width="100" height="100">
+                    <h3>Customer Service</h3>
+                    <h4>2019-2021</h4>
+                    <p><strong>Empresa:</strong> Tigo Guatemala</p>
+                    <p>Call Center, Soporte Tecnico, Servicio al Cliente, Ventas, generacion de ordenes de trabajo, reclamos</p>
+                </div>
+                <div class="trabajo">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/Bantrab.png" alt="Bantrab" width="125" height="100">
+                    <h3>Auxiliar de Digitalización</h3>
+                    <h4>2022-2024</h4>
+                    <p><strong>Empresa:</strong> Bantrab</p>
+                    <p>Recepción y revisssión de expedientes, Digitalización de expedientes</p>
+                </div>
+                <div class="trabajo">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/Claro.png" alt="Claro" width="100" height="100">
+                    <h3>Ofinista Administrativo II</h3>
+                    <h4>2024</h4>
+                    <p><strong>Empresa:</strong> Claro Guatemala</p>
+                    <p>Seguimiento y publicación de fallas, Reportería</p>
+                </div>
+                <div class="trabajo">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/FRT.jpeg" alt="FRT" width="100" height="100">
+                    <h3>Analista de Operación y Sistemas</h3>
+                    <h4>2024</h4>
+                    <p><strong>Empresa:</strong> Flowing Rivers</p>
+                    <p>Mantenimiento de servidores, Bases de Datos, Reportería, Seguimiento de fallas en las aplicaciones web</p>
+                </div>
+            </div>
+        </section>
+        <section id="educacion">
+            <h2>Educación</h2>
+            <div class="educacion-grid">
+                <div class="educacion">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/UMG.webp" alt="Universidad Mariano Galvez de Guatemala" width="200" height="200">
+                    <h3>Ingeniería en Sistemas</h3>
+                    <p><strong>Institución:</strong> Universidad Mariano Galvez de Guatemala</p>
+                    <p><strong>Año de Graduación:</strong> Estudio actualmente el 6to. Semestre</p>
+                </div>
+                <div class="educacion">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/IPC.jpg" alt="IPC" width="100" height="100">
+                    <h3>Bachiller en Computación</h3>
+                    <p><strong>Institución:</strong> IPC de Villa Nueva JV</p>
+                    <p><strong>Año de Graduación:</strong> 2012</p>
+                </div>
+                <div class="educacion">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/INEB.webp" alt="INEB" width="100" height="100">
+                    <h3>3ro. Básico</h3>
+                    <p><strong>Institución:</strong> INEB Santa Isabel II JV</p>
+                    <p><strong>Año de Graduación:</strong> 2010</p>
+                </div>
+                <div class="educacion">
+                    <img src="/Users/eswinpineda/Desktop/Proyectos/img/NV.jpeg" alt="NV" width="100" height="100">
+                    <h3>6to. Primaria</h3>
+                    <p><strong>Institución:</strong> EORM No. 301 Niño Victorioso JM</p>
+                    <p><strong>Año de Graduación:</strong> 2007</p>
+                </div>
+            </div>
+        </section>
+        <section id="certificaciones">
+            <h2>Certificaciones</h2>
+            <div class="certificaciones-grid">
+                <div class="certificacion">
+                    <embed src="/Users/eswinpineda/Desktop/Proyectos/img/ScrumFundamentalsCertified-EswinPineda-1031006.pdf" width="300" height="232" />
+                </div>
+                <div class="certificacion">
+                    <embed src="/Users/eswinpineda/Desktop/Proyectos/img/diplomado.pdf" width="300" height="232" />
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>"No es que soy muy inteligente, es que me quedo con los problemas más tiempo." - Albert Einstein</h2>
+        </section>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="https://linkedin.com/in/eswin-rené-pineda-de-león-b861b549" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/EswRenn" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/eswin_pinn?igsh=NmloNGRkaDg2a2sw" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Eswin Pineda. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        function mostrarModal(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+
+        function cerrarModal(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            const modals = document.getElementsByClassName('modal');
+            for (let modal of modals) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            }
+            const modalContacto = document.getElementById('contacto-modal');
+            if (event.target == modalContacto) {
+                modalContacto.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
