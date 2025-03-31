@@ -57,14 +57,14 @@ main img {
     clip-path: circle(70%);
 }
 
-.proyectos-grid, .experiencia-grid, .educacion-grid, .certificaciones-grid {
+.proyectos-grid, .experiencia-grid, .educacion-grid, .certificaciones-grid, .insignias-grid {
     display: flex;
     gap: 2em;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.proyecto, .trabajo, .educacion, .certificaciones {
+.proyecto, .trabajo, .educacion, .certificaciones, .insignias {
     border: 1px solid #ddd;
     padding: 1em;
     border-radius: 5px;
@@ -72,11 +72,11 @@ main img {
     transition: transform 0.3s;
 }
 
-.proyecto:hover, .trabajo:hover, .educacion:hover, .certificaciones:hover {
+.proyecto:hover, .trabajo:hover, .educacion:hover, .certificaciones:hover, .insignias:hover {
     transform: scale(1.05);
 }
 
-.proyecto img, .trabajo img, .educacion img {
+.proyecto img, .trabajo img, .educacion img, insignias img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
@@ -207,7 +207,7 @@ footer .social-media a {
         padding: 1em;
     }
 
-    .proyectos-grid, .experiencia-grid, .educacion-grid {
+    .proyectos-grid, .experiencia-grid, .educacion-grid, .insignias-grid {
         flex-direction: column;
         gap: 1em;
     }
