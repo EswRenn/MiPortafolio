@@ -28,480 +28,144 @@
     </header>
     <main>
         <section id="inicio">
-            <img src="img/tu_foto.jpg" alt="Foto de Eswin" width="200" height="150">
-            <h1>Hola, soy Eswin Pineda</h1>
+            <img src="img/tu_foto.jpg" alt="Foto de Eswin" width="200" height="150" class="profile-img">
+            <h1>Hola, <span id="typing-text"></span><span class="cursor">|</span></h1>
             <p>Soy un estudiante universitario de la Carrera de Ingeniería en Sistemas, con ganas y deseos de aprender y poder aplicarlos para solucionar problemas</p>
         </section>
+
         <section id="sobre-mi">
             <h2>Sobre Mí</h2>
-            <p>Soy un programador con un poco de experiencia en Java, C#, HTML, CSS, SQL Server. Disfruto trabajando en proyectos que me desafían y 
-                me permiten aprender nuevas habilidades. Estoy en busqueda de poder desarrollarme como un Desarrollador Junior y tengo el deseo de aprender y conocer nuevas tecnologías, 
-                y al adquirir el conocimiento poder aplicarlas en los proyectos que pueda desarrollar y asi poder solucionar muchos problemas</p>
+            <p>Soy un programador con un poco de experiencia en Java, C#, HTML, CSS, SQL Server. Disfruto trabajando en proyectos que me desafían y me permiten aprender nuevas habilidades. Estoy en busqueda de poder desarrollarme como un Desarrollador Junior y tengo el deseo de aprender y conocer nuevas tecnologías, y al adquirir el conocimiento poder aplicarlas en los proyectos que pueda desarrollar y asi poder solucionar muchos problemas</p>
             <h3>Habilidades</h3>
             <ul class="skills-list">
-                <li>C#</li>
-                <li>Java</li>
-                <li>.Net Framework</li>
-                <li>C++</li>
-                <li>SQL Server</li>
-                <li>MySQL</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>PowerBi</li>
-                <li>Photoshop</li>
-                <li>Illustrator</li>
-                <li>CorelDraw</li>
-                <li>Python</li>
-                <li>Oracle Database</li>
-                <li>Windows</li>
-                <li>Mac OS</li>
-                <li>Linux</li>
-                <li>React</li>
-                <li>Node js</li>
-                <li>React Native</li>
+                <li>C#</li><li>Java</li><li>.Net Framework</li><li>C++</li><li>SQL Server</li><li>MySQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>Git</li><li>GitHub</li><li>PowerBi</li><li>Photoshop</li><li>Illustrator</li><li>CorelDraw</li><li>Python</li><li>Oracle Database</li><li>Windows</li><li>Mac OS</li><li>Linux</li><li>React</li><li>Node js</li><li>React Native</li>
             </ul>
             <h3>Hobbies</h3>
             <p>Soy Músico, me encanta el Fútbol, me gustan los Videojuegos, también me gusta mucho ver Series y Peliculas, también me encanta leer comics y mangas</p>
         </section>
+
         <section id="proyectos">
             <h2>Proyectos</h2>
             <div class="proyectos-grid">
-                <!-- Proyecto 1 -->
                 <div class="proyecto" onclick="mostrarModal('proyecto1')">
                     <img src="img/C-Sharp.png" alt="Proyecto 1" width="100" height="100">
                     <img src="img/ASP .Net.png" alt="Proyecto 1" width="100" height="100">
                     <img src="img/SQL Server.png" alt="Proyecto 1" width="100" height="100">
                     <h3>Sistema de Hotelería</h3>
                 </div>
-                <div id="proyecto1" class="modal">
-                    <div class="modal-content">
-                        <span class="close" onclick="cerrarModal('proyecto1')">&times;</span>
-                        <h3>Sistema de Hotelería</h3>
-                        <div class="container">
-                        <img src="img/ASP .Net.png" alt="Proyecto 1"  width="100" height="100">
-                        <div class="text"><h4>Sistema que básicamente registra la reservación de habitaciones de un hotel</h4></div>
-                        </div>
-                        <p>Proyecto desarrollado a través del lenguaje de programación Visual Studio .NET y base de datos SQL Server o MySQL, 
-                            el proyecto se estructura a través de los siguientes requerimientos:
-                            Intranet,
-                            Modelado de un sistema comercial en 3 servidores (base de datos, servicios y aplicación)</p>
-                        <p><strong>Tecnologías:</strong></p>
-                        <ul class="skills-list">
-                            <li>C#</li>
-                            <li>API REST</li>
-                            <li>ASP.Net</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>SQL Server</li>
-                            <li>CRUD (Logica DML)</li>
-                        </ul>
-                        <div class="container">
-                            <a href="https://github.com/EswRenn/APIHoteleria.git">
-                            <img
-                              src="img/GitHub2.png"
-                              alt="Repositorio GitHub" width="100" height="100" />
-                          </a>
-                          <div class="text"><h3>Repositorio GitHub</h3>
-                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Proyecto 2 -->
                 <div class="proyecto" onclick="mostrarModal('proyecto2')">
                     <img src="img/JAVA.png" alt="Proyecto 2" width="150" height="100">
                     <img src="img/SQL Server.png" alt="Proyecto 2" width="100" height="100">
                     <h3>Sistema de evaluación de personal</h3>
                 </div>
-                <div id="proyecto2" class="modal">
-                    <div class="modal-content">
-                        <span class="close" onclick="cerrarModal('proyecto2')">&times;</span>
-                        <h3>Sistema de evaluación de personal</h3>
-                        <div class="container">
-                        <img src="img/JAVA2.png" alt="Proyecto 2" width="100" height="100">
-                        <div class="text"><h4>Desarrollo de una aplicación web que permita evaluar el desempeño de un trabajador a través de una serie de preguntas y ponderación de esta</h4></div>
-                        </div>
-                        <p>1. Modelo de negocio, este modelo permitirá diseñar un diagrama entidad relación, diagrama de clases y posteriormente el diseño de una base de datos. 
-                            La base de datos a desarrollar será SQL Server.</p>
-                        <p>2. Programación de servicios, el objetivo de este servidor es tener la operabilidad de la base de datos y permitir una comunicación e intercambio de datos a través del estándar XML, 
-                            este servidor servirá de intermediario entre la base de datos y la interfaz al usuario final. Este estándar será del tipo SOAP y se programará en JAX-WS</p>
-                            <p>- Este servicio debe incluir la apertura y cierre de la base de datos SQL Server y con ello permitir las instrucciones DML (select, insert, update, delete) del modelo de negocio asignado.</p>
-                            <p>- Debe instalarse y configurarse un servidor Glassfish, Apache Tomcat o Payara. </p>
-                            <p>- En este servidor Glassfish, Apache Tomcat o Payara se publicará el servicio JAX-WS desarrollado en Java, posteriormente este servicio podrá ser instanciado en cualquier interfaz al usuario.</p>
-                        <p><strong>Tecnologías:</strong></p>
-                        <ul class="skills-list">
-                            <li>Java</li>
-                            <li>JAX-WS</li>
-                            <li>SQL Server</li>
-                            <li>CRUD (Logica DML)</li>
-                        </ul>
-                        <div class="container">
-                            <a href="https://github.com/EswRenn/CRUDJava.git">
-                            <img
-                              src="img/GitHub2.png"
-                              alt="Repositorio GitHub" width="100" height="100" />
-                          </a>
-                          <div class="text"><h3>Repositorio GitHub</h3>
-                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Proyecto 3 -->
                 <div class="proyecto" onclick="mostrarModal('proyecto3')">
                     <img src="img/JAVA.png" alt="Proyecto 3" width="150" height="100">
                     <img src="img/MySQL.png" alt="Proyecto 3" width="100" height="100">
                     <h3>Tabla Hash</h3>
                 </div>
-                <div id="proyecto3" class="modal">
-                    <div class="modal-content">
-                        <span class="close" onclick="cerrarModal('proyecto3')">&times;</span>
-                        <h3>Tabla Hash</h3>
-                        <div class="container">
-                        <img src="img/JAVA2.png" alt="Proyecto 3" width="100" height="100">
-                        <div class="text"><h4>Desarrollo de una aplicación de escritorio Java utilizando Tablas Hash con metodo de Encadenamiento Seprado</h4></div>
-                        </div>
-                        <p>Desarrollo de una aplicación que contenga un menú con el ABC (Altas - Bajas - Cambios) de la tabla, deberá tener inicialmente un formulario de login, 
-                            después de haberse logeado poder ingresar al menú principal el cual contendrá las opciones de Reporte de datos, Inserción, eliminación y actualización 
-                            de nuevos datos además cierre de la aplicación.</p>
-                            <p>También se desarrolla un login conectado a una base de datos en MySQL, con nombre de usuario y contraseña</p>
-                            <p><strong>Tecnologías:</strong></p>
-                            <ul class="skills-list">
-                                <li>Java</li>
-                                <li>Java Swing</li>
-                                <li>MySQL</li>
-                                <li>CRUD</li>
-                            </ul>
-                            <div class="container">
-                                <a href="https://github.com/EswRenn/TablasHashJava.git">
-                                <img
-                                  src="img/GitHub2.png"
-                                  alt="Repositorio GitHub" width="100" height="100" />
-                              </a>
-                              <div class="text"><h3>Repositorio GitHub</h3>
-                                <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
-                            </div>
-                    </div>
-                </div>
-                <!-- Proyecto 4 -->
                 <div class="proyecto" onclick="mostrarModal('proyecto4')">
                     <img src="img/SQL Server.png" alt="Proyecto 4" width="200" height="100">
                     <h3>Base de Datos Hotelería</h3>
                 </div>
-                <div id="proyecto4" class="modal">
-                    <div class="modal-content">
-                        <span class="close" onclick="cerrarModal('proyecto4')">&times;</span>
-                        <h3>Base de Datos Hotelería</h3>
-                        <div class="container">
-                        <img src="img/SQL Server.png" alt="Proyecto 4"  width="100" height="100">
-                        <div class="text"><h4>En base al modelo de negocio asignado se realizará una base de datos, se deben listar las tablas, campos, 
-                            clave primaria y foránea y modelo relacional, esta base de dato se debe diseñar en el servidor de base de datos elegido anteriormente.</h4></div>
-                        </div>
-                        <p>Tablas que debe incluir el sistema:</p>
-                            <p>1. Usuario: Registre las credenciales del empleado que tendrá acceso al sistema</p>
-                            <p>2. Hotel: Registra los datos generales del hotel que presta el servicio</p>
-                            <p>3. Tipo de habitación: Clasifica una habitación de acuerdo con la comodidad de esta</p>
-                            <p>4. Habitación: Registro de las habitaciones disponibles en un hotel, incluye el tipo de habitación</p>
-                            <p>5. Cliente: Registro los datos generales de la persona que solicita habitaciones</p>
-                            <p>6. Empleados: Registro de personas que laboran en el hotel</p>
-                            <p>7. Reservación: Consiste en el evento mas importante del sistema y divide la lógica de esta en las siguientes tablas:</p>
-                            <p><i>- Reservación: Registra los datos del cliente, empleado, hotel, costos</i></p>
-                            <p><i>- Detalle de reservación: Lista las habitaciones y los días reservados</i></p>
-                            </p>
-                        <p><strong>Tecnologías:</strong></p>
-                        <ul class="skills-list">
-                            <li>SQL Server</li>
-                        </ul>
-                        <div class="container">
-                            <a href="https://github.com/EswRenn/DBHoteleria.git">
-                            <img
-                              src="img/GitHub2.png"
-                              alt="Repositorio GitHub" width="100" height="100" />
-                          </a>
-                          <div class="text"><h3>Repositorio GitHub</h3>
-                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Proyecto 5 -->
                 <div class="proyecto" onclick="mostrarModal('proyecto5')">
                     <img src="img/HTML-CSS-JS.png" alt="Proyecto 5" width="200" height="300">
                     <h3>Mi Portafolio Web</h3>
                 </div>
-                <div id="proyecto5" class="modal">
-                    <div class="modal-content">
-                        <span class="close" onclick="cerrarModal('proyecto5')">&times;</span>
-                        <h3>Mi Portafolio Web</h3>
-                        <div class="container">
-                        <img src="img/HTML-CSS-JS.png" alt="Proyecto 5"  width="100" height="100">
-                        <div class="text"><h4>Publicación de mi portafolio Web</h4></div>
-                        </div>
-                        <p>Proyecto para desarrollar mi Portafolio, con mis proyectos, habilidades, experiencia laboral, educación y certificaciones</p>
-                        <p><strong>Tecnologías:</strong></p>
-                        <ul class="skills-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                        <div class="container">
-                            <a href="https://github.com/EswRenn/MiPortafolio.git">
-                            <img
-                              src="img/GitHub2.png"
-                              alt="Repositorio GitHub" width="100" height="100" />
-                          </a>
-                          <div class="text"><h3>Repositorio GitHub</h3>
-                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
-                        </div>
-                    </div>
-                </div>
-             <!-- Proyecto 6 -->
                 <div class="proyecto" onclick="mostrarModal('proyecto6')">
                     <img src="img/HTML-CSS-JS.png" alt="Proyecto 6" width="100" height="150">
                     <img src="img/React.png" alt="Proyecto 6" width="100" height="150">
                     <h3>Modulo de Parqueos Frontend</h3>
                 </div>
-                <div id="proyecto6" class="modal">
-                    <div class="modal-content">
-                        <span class="close" onclick="cerrarModal('proyecto6')">&times;</span>
-                        <h3>Modulo Parqueos Frontend</h3>
-                        <div class="container">
-                        <img src="img/HTML-CSS-JS.png" alt="Proyecto 6"  width="100" height="100">
-                        <img src="img/React.png" alt="Proyecto 6" width="100" height="100">
-                        <div class="text"><h4>Publicación del Frontend de Modulo de Parqueos</h4></div>
-                        </div>
-                        <p>Proyecto para desarrollar Frontend de Modulo de Parqueos, proyecto Universitario</p>
-                        <p><strong>Tecnologías:</strong></p>
-                        <ul class="skills-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                        </ul>
-                        <div class="container">
-                            <a href="https://github.com/EswRenn/FrontendModuloParqueo.git">
-                            <img
-                              src="img/GitHub2.png"
-                              alt="Repositorio GitHub" width="100" height="100" />
-                          </a>
-                          <div class="text"><h3>Repositorio GitHub</h3>
-                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Proyecto 7 -->
                 <div class="proyecto" onclick="mostrarModal('proyecto7')">
                     <img src="img/NodeJS.png" alt="Proyecto 7" width="100" height="150">
                     <img src="img/OracleDB.png" alt="Proyecto 7" width="100" height="150">
                     <h3>Modulo de Parqueos Backend</h3>
                 </div>
-                <div id="proyecto7" class="modal">
-                    <div class="modal-content">
-                        <span class="close" onclick="cerrarModal('proyecto7')">&times;</span>
-                        <h3>Modulo Parqueos Backend</h3>
-                        <div class="container">
-                        <img src="img/NodeJS.png" alt="Proyecto 6"  width="100" height="100">
-                        <img src="img/OracleDB.png" alt="Proyecto 6" width="100" height="100">
-                        <img src="img/AWS.png" alt="Proyecto 6" width="100" height="100">
-                        <div class="text"><h4>Publicación del Backend de Modulo de Parqueos</h4></div>
-                        </div>
-                        <p>Proyecto para desarrollar Backend de Modulo de Parqueos, proyecto Universitario</p>
-                        <p><strong>Tecnologías:</strong></p>
-                        <ul class="skills-list">
-                            <li>Node JS</li>
-                            <li>API Rest</li>
-                            <li>Oracle Database</li>
-                            <li>AWS</li>
-                        </ul>
-                        <div class="container">
-                            <a href="https://github.com/EswRenn/BackendModuloParqueo.git">
-                            <img
-                              src="img/GitHub2.png"
-                              alt="Repositorio GitHub" width="100" height="100" />
-                          </a>
-                          <div class="text"><h3>Repositorio GitHub</h3>
-                            <p><u><i>(click en el ícono para ir al código fuente)</i></u></p></div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
+
+        <div id="proyecto1" class="modal"><div class="modal-content"><span class="close" onclick="cerrarModal('proyecto1')">&times;</span><h3>Sistema de Hotelería</h3><div class="container"><img src="img/ASP .Net.png" alt="P1" width="100"><h4>Sistema que registra reservación de habitaciones</h4></div><p>Desarrollado en Visual Studio .NET y SQL Server. Modelado en 3 servidores.</p><p><strong>Tecnologías:</strong> C#, API REST, ASP.Net, SQL Server.</p><a href="https://github.com/EswRenn/APIHoteleria.git" target="_blank">Repositorio GitHub</a></div></div>
+        <div id="proyecto2" class="modal"><div class="modal-content"><span class="close" onclick="cerrarModal('proyecto2')">&times;</span><h3>Sistema de Evaluación</h3><div class="container"><img src="img/JAVA2.png" alt="P2" width="100"><h4>Evaluación de desempeño de trabajadores</h4></div><p>Uso de JAX-WS, SOAP y SQL Server.</p></div></div>
+        <div id="proyecto3" class="modal"><div class="modal-content"><span class="close" onclick="cerrarModal('proyecto3')">&times;</span><h3>Tabla Hash</h3><div class="container"><img src="img/JAVA2.png" alt="P3" width="100"><h4>Método de Encadenamiento Separado</h4></div><p>Aplicación Swing conectada a MySQL.</p></div></div>
+        <div id="proyecto4" class="modal"><div class="modal-content"><span class="close" onclick="cerrarModal('proyecto4')">&times;</span><h3>Base de Datos Hotelería</h3><p>Diseño relacional completo: Hotel, Habitaciones, Clientes, Reservaciones.</p></div></div>
+        <div id="proyecto5" class="modal"><div class="modal-content"><span class="close" onclick="cerrarModal('proyecto5')">&times;</span><h3>Mi Portafolio Web</h3><p>Publicación de proyectos y habilidades usando HTML, CSS y JS.</p></div></div>
+        <div id="proyecto6" class="modal"><div class="modal-content"><span class="close" onclick="cerrarModal('proyecto6')">&times;</span><h3>Parqueos Frontend</h3><p>Proyecto Universitario desarrollado en React.</p></div></div>
+        <div id="proyecto7" class="modal"><div class="modal-content"><span class="close" onclick="cerrarModal('proyecto7')">&times;</span><h3>Parqueos Backend</h3><p>Node JS, API Rest, Oracle DB y AWS.</p></div></div>
+
         <section id="experiencia">
             <h2>Experiencia Laboral</h2>
             <div class="experiencia-grid">
-                <div class="trabajo">
-                    <img src="img/BI.jpeg" alt="Bi" width="115" height="100">
-                    <h3>Auxiliar Operativo</h3>
-                    <h4>2014-2015</h4>
-                    <p><strong>Empresa:</strong> Banco Industrial</p>
-                    <p>Recepción y conteo de valores, cuadre de caja</p>
-                </div>
-                <div class="trabajo">
-                    <img src="img/Tigo.png" alt="Tigo" width="100" height="100">
-                    <h3>Customer Service</h3>
-                    <h4>2019-2021</h4>
-                    <p><strong>Empresa:</strong> Tigo Guatemala</p>
-                    <p>Call Center, Soporte Tecnico, Servicio al Cliente, Ventas, generacion de ordenes de trabajo, reclamos</p>
-                </div>
-                <div class="trabajo">
-                    <img src="img/MANY2.jpg" alt="MANY" width="125" height="100">
-                    <h3>Customer Support</h3>
-                    <h4>2021-2022</h4>
-                    <p><strong>Empresa:</strong> Servicios Integrados MANY</p>
-                    <p>Atención al Cliente, Diseño de Etiquetas, Reportería</p>
+                <div class="trabajo"><img src="img/BI.jpeg" alt="Bi" width="115"><h3>Auxiliar Operativo</h3><h4>2014-2015</h4><p>Banco Industrial</p></div>
+                <div class="trabajo"><img src="img/Tigo.png" alt="Tigo" width="100"><h3>Customer Service</h3><h4>2019-2021</h4><p>Tigo Guatemala</p></div>
+                <div class="trabajo"><img src="img/MANY2.jpg" alt="MANY" width="125"><h3>Customer Support</h3><h4>2021-2022</h4><p>Servicios Integrados MANY</p></div>
+                <div class="trabajo"><img src="img/Bantrab.png" alt="Bantrab" width="125"><h3>Auxiliar de Digitalización</h3><h4>2022-2024</h4><p>Bantrab</p></div>
+                <div class="trabajo"><img src="img/AMPRO.png" alt="AMPRO" width="250"><h3>Analista Programador</h3><h4>2024-2025</h4><p>AMPRO Guatemala</p></div>
+                <div class="trabajo"><img src="img/AMPRO.png" alt="AMPRO" width="250"><h3>Business Analyst</h3><h4>2025-Actualidad</h4><p>AMPRO Guatemala</p></div>
             </div>
-                <div class="trabajo">
-                    <img src="img/Bantrab.png" alt="Bantrab" width="125" height="100">
-                    <h3>Auxiliar de Digitalización</h3>
-                    <h4>2022-2024</h4>
-                    <p><strong>Empresa:</strong> Bantrab</p>
-                    <p>Recepción y revisión de expedientes, Digitalización de expedientes</p>
-            </div>
-                <div class="trabajo">
-                    <img src="img/AMPRO.png" alt="AMPRO" width="250" height="300">
-                    <h3>Analista Programador y de Datos</h3>
-                    <h4>2024 - 2025</h4>
-                    <p><strong>Empresa:</strong> AMPRO Guatemala</p>
-                    <p>Reportería, Excel, Soporte y Configuracion de Satelites</p>
-            </div>
-                <div class="trabajo">
-                    <img src="img/AMPRO.png" alt="AMPRO" width="250" height="300">
-                    <h3>Business Analyst</h3>
-                    <h4>2025 - Actualidad</h4>
-                    <p><strong>Empresa:</strong> AMPRO Guatemala</p>
-                    <p>Reportería, Excel, Dashboards</p>
-            </div>        </section>
+        </section>
+
         <section id="educacion">
             <h2>Educación</h2>
             <div class="educacion-grid">
-                <div class="educacion">
-                    <img src="img/UMG.webp" alt="Universidad Mariano Galvez de Guatemala" width="200" height="200">
-                    <h3>Ingeniería en Sistemas</h3>
-                    <p><strong>Institución:</strong> Universidad Mariano Galvez de Guatemala</p>
-                    <p><strong>Año de Graduación:</strong> Estudio actualmente el 9no. Semestre</p>
-                </div>
-                <div class="educacion">
-                    <img src="img/IPC.jpg" alt="IPC" width="100" height="100">
-                    <h3>Bachiller en Computación</h3>
-                    <p><strong>Institución:</strong> IPC de Villa Nueva JV</p>
-                    <p><strong>Año de Graduación:</strong> 2012</p>
-                </div>
-                <div class="educacion">
-                    <img src="img/INEB.webp" alt="INEB" width="100" height="100">
-                    <h3>3ro. Básico</h3>
-                    <p><strong>Institución:</strong> INEB Santa Isabel II JV</p>
-                    <p><strong>Año de Graduación:</strong> 2010</p>
-                </div>
-                <div class="educacion">
-                    <img src="img/NV.jpeg" alt="NV" width="100" height="100">
-                    <h3>6to. Primaria</h3>
-                    <p><strong>Institución:</strong> EORM No. 301 Niño Victorioso JM</p>
-                    <p><strong>Año de Graduación:</strong> 2007</p>
-                </div>
+                <div class="educacion"><img src="img/UMG.webp" alt="UMG" width="200"><h3>Ingeniería en Sistemas</h3><p>U. Mariano Gálvez (9no Semestre)</p></div>
+                <div class="educacion"><img src="img/IPC.jpg" alt="IPC" width="100"><h3>Bachiller en Computación</h3><p>IPC Villa Nueva</p></div>
+                <div class="educacion"><img src="img/INEB.webp" alt="INEB" width="100"><h3>3ro. Básico</h3><p>INEB Santa Isabel II</p></div>
+                <div class="educacion"><img src="img/NV.jpeg" alt="NV" width="100"><h3>6to. Primaria</h3><p>EORM Niño Victorioso</p></div>
             </div>
         </section>
+
         <section id="certificaciones">
             <h2>Certificaciones</h2>
             <div class="certificaciones-grid">
-                <div class="certificacion">
-                    <embed src="img/ScrumFundamentalsCertified-EswinPineda-1031006.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/diplomado.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda - 2024-07-15 Introduccion a Python.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda - 2024-09-08 Introduccion a JavaScript.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Operating_Systems_Basics_Badge20240731.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Computer_Hardware_Basics_Badge20240802-6-9hjbi9.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda CSharp Intermedio.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Java Intermedio.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda SQL Intermedio.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Cisco LinuxUnhatched20241023-7-uoppfi.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Introduction_to_IoT_certificate_er8pineda-gmail-com_a526fd46-3378-4654-ae72-aa2977b28fa9.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Linux Unhatched EDUTEK.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Network_Addressing_and_Basic_Troubleshooting_certificate_er8pineda-gmail-com_bb582a85-d11c-4419-8aad-31774abd49ba.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Networking_Basics_certificate_er8pineda-gmail-com_98ab03dc-0e27-4fdf-a813-f6b4a265e984.pdf" width="300" height="232" />
-                </div>
-                <div class="certificacion">
-                    <embed src="img/Eswin Pineda Networking_Devices_and_Initial_Configuration_certificate_er8pineda-gmail-com_c7cee039-dfce-470f-866a-7604c379bb02.pdf" width="300" height="232" />
-                </div>
+                <div class="certificacion-card"><embed src="img/ScrumFundamentalsCertified-EswinPineda-1031006.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/diplomado.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda - 2024-07-15 Introduccion a Python.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda - 2024-09-08 Introduccion a JavaScript.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Operating_Systems_Basics_Badge20240731.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Computer_Hardware_Basics_Badge20240802-6-9hjbi9.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda CSharp Intermedio.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Java Intermedio.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda SQL Intermedio.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Cisco LinuxUnhatched20241023-7-uoppfi.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Introduction_to_IoT_certificate_er8pineda-gmail-com_a526fd46-3378-4654-ae72-aa2977b28fa9.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Linux Unhatched EDUTEK.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Network_Addressing_and_Basic_Troubleshooting_certificate_er8pineda-gmail-com_bb582a85-d11c-4419-8aad-31774abd49ba.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Networking_Basics_certificate_er8pineda-gmail-com_98ab03dc-0e27-4fdf-a813-f6b4a265e984.pdf" class="pdf-viewer" /></div>
+                <div class="certificacion-card"><embed src="img/Eswin Pineda Networking_Devices_and_Initial_Configuration_certificate_er8pineda-gmail-com_c7cee039-dfce-470f-866a-7604c379bb02.pdf" class="pdf-viewer" /></div>
             </div>
         </section>
+
         <section id="insignias">
             <h2>Insignias</h2>
             <div class="insignias-grid">
-                <div class="insignia">
-                    <embed src="img/computer-hardware-basics.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/operating-systems-basics.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/linux-unhatched.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/it-academy-cloud-and-virtualization-concepts.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/it-academy-network-virtualization-concepts.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/Scrum.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/network-addressing-and-basic-troubleshooting.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/introduction-to-iot.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/networking-devices-and-initial-configuration.png" width="150" height="150" />
-                </div>
-                <div class="insignia">
-                    <embed src="img/networking-basics.png" width="150" height="150" />
-                </div>
+                <div class="insignia"><embed src="img/computer-hardware-basics.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/operating-systems-basics.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/linux-unhatched.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/it-academy-cloud-and-virtualization-concepts.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/it-academy-network-virtualization-concepts.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/Scrum.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/network-addressing-and-basic-troubleshooting.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/introduction-to-iot.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/networking-devices-and-initial-configuration.png" width="150" height="150" /></div>
+                <div class="insignia"><embed src="img/networking-basics.png" width="150" height="150" /></div>
             </div>
         </section>
+
         <section id="contacto">
             <h2>"No es que soy muy inteligente, es que me quedo con los problemas más tiempo." - Albert Einstein</h2>
         </section>
+
         <button onclick="mostrarModal('contacto-modal')">DESCARGA MI CURRICULUM</button>
-            <div id="contacto-modal" class="modal modal-contacto">
-                <div class="modal-content">
-                    <span class="close" onclick="cerrarModal('contacto-modal')">&times;</span>
-                    <h3>Mi Curriculum</h3>
-                    <div class="certificaciones-grid">
-                        <div class="certificacion">
-                            <embed src="img/Eswin Pineda CV.pdf" width="300" height="478" />
-                        </div>
-                    </div>
+
+        <div id="contacto-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="cerrarModal('contacto-modal')">&times;</span>
+                <h3>Mi Curriculum</h3>
+                <div class="certificacion-card">
+                    <embed src="img/Eswin Pineda CV.pdf" width="100%" height="600px" />
                 </div>
             </div>
+        </div>
     </main>
     <footer>
         <div class="social-media">
@@ -512,28 +176,28 @@
         <p>&copy; 2026 Eswin Pineda. Todos los derechos reservados.</p>
     </footer>
 
-    <!-- Scripts -->
     <script>
-        function mostrarModal(id) {
-            document.getElementById(id).style.display = 'block';
-        }
-
-        function cerrarModal(id) {
-            document.getElementById(id).style.display = 'none';
-        }
-
+        // Lógica de Modales
+        function mostrarModal(id) { document.getElementById(id).style.display = 'block'; }
+        function cerrarModal(id) { document.getElementById(id).style.display = 'none'; }
         window.onclick = function(event) {
             const modals = document.getElementsByClassName('modal');
-            for (let modal of modals) {
-                if (event.target == modal) {
-                    modal.style.display = 'none';
-                }
-            }
-            const modalContacto = document.getElementById('contacto-modal');
-            if (event.target == modalContacto) {
-                modalContacto.style.display = 'none';
-            }
+            for (let modal of modals) { if (event.target == modal) modal.style.display = 'none'; }
         }
+
+        // Efecto Typing
+        const textElement = document.getElementById('typing-text');
+        const phrases = ["soy Eswin Pineda.", "soy Desarrollador Junior.", "soy Ingeniero en Sistemas."];
+        let pIdx = 0, cIdx = 0, isDel = false, speed = 100;
+        function type() {
+            const current = phrases[pIdx];
+            textElement.textContent = isDel ? current.substring(0, cIdx--) : current.substring(0, cIdx++);
+            if (!isDel && cIdx > current.length) { isDel = true; speed = 2000; }
+            else if (isDel && cIdx < 0) { isDel = false; pIdx = (pIdx + 1) % phrases.length; speed = 500; }
+            else { speed = isDel ? 50 : 100; }
+            setTimeout(type, speed);
+        }
+        document.addEventListener('DOMContentLoaded', type);
     </script>
 </body>
 </html>
